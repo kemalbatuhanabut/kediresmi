@@ -54,6 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 
 <body>
+	<script src="js/flickity.pkgd.min.js"></script> 
 <div class="main-carousel">
   <div class="carousel-cell"> <img class="sizeyy" src="images/fray.png" data-flickity-lazyload="images/newc/kedi (1).jpg" alt="kedi"> </div>
   <div class="carousel-cell"> <img class="sizeyy" src="images/fray.png" data-flickity-lazyload="images/newc/kedi (2).jpg" alt="kedi"> </div>
@@ -99,7 +100,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="carousel-cell"> <img class="sizeyy" src="images/fray.png" data-flickity-lazyload="images/newc/kedi (42).jpg" alt="kedi"> </div>
   <div class="carousel-cell"> <img class="sizeyy" src="images/fray.png" data-flickity-lazyload="images/newc/kedi (43).jpg" alt="kedi"> </div>
 </div>
-<script src="js/flickity.pkgd.min.js"></script> 
+
 <script>
 	
 	var elem = document.querySelector('.main-carousel');
@@ -112,7 +113,8 @@ var flkty = new Flickity( elem, {
 	pauseAutoPlayOnHover: false,
 	lazyLoad: true,
 	pageDots:false,
-	prevNextButtons:false
+	prevNextButtons:false,
+	
 	
 
 });
